@@ -13,6 +13,6 @@ server:
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 40000  # feign 超时控制
 service0:
   ribbon:
-    ReadTimeout: 1000
-    ConnectTimeout: 500
+    ReadTimeout: 10000
+    ConnectTimeout: 5000
     MaxAutoRetries: 1  # SR6版本,这里设为1,会重试3次,重试次数还和另外的两个值有关

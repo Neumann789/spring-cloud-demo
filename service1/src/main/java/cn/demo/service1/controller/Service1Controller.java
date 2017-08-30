@@ -87,6 +87,7 @@ public class Service1Controller extends AbstractController {
     @Autowired
     Service0Client service0Client;
 
+    //http://192.168.5.88:8083/service1/test/111/  可以使用gateway来请求
     @GetMapping("/test/{sleepSec}")
     public String test(
             @PathVariable int sleepSec
