@@ -6,7 +6,7 @@ spring:
   application:
     name: gateway
 server:
-  port: 8083
+  port: 8084
 zuul:
   routes:
     service0: /service/0/**
