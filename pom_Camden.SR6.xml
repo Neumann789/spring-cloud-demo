@@ -13,7 +13,6 @@
 		<module>service0</module>
 		<module>service1</module>
 		<module>reverse-proxy</module>
-		<module>config-server</module>
 		<module>client0</module>
 		<module>service2</module>
 		<module>ribbon</module>
